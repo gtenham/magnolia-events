@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>nl.tricode.magnolia</groupId>
   <artifactId>magnolia-events-module</artifactId>
-  <version>1.1.0-SNAPSHOT</version>
+  <version>1.1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
     <name>Tricode Magnolia Event Module</name>
     <description>This module contains a Blog app for Magnolia CMS</description>
@@ -23,12 +23,12 @@
         <repository>
             <id>tricode-magnolia-releases</id>
             <name>Tricode Magnolia Releases</name>
-            <url>https://artifacts.proxy.tricode.nl/content/repositories/magnolia-releases/</url>
+            <url>https://artifacts.proxy.tricode.nl/content/repositories/magnolia_github_releases/</url>
         </repository>
         <snapshotRepository>
             <id>tricode-magnolia-snapshots</id>
             <name>Tricode Magnolia Snapshots</name>
-            <url>http://artifacts.proxy.tricode.nl/content/repositories/magnolia-snapshots/</url>
+            <url>http://artifacts.proxy.tricode.nl/content/repositories/magnolia_github_snapshots/</url>
             <uniqueVersion>true</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
